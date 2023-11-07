@@ -13,4 +13,4 @@ Actuators. <springboot-starter-actuator>
 	k. management.endpoint.web.exposure.include = * 		// to expose all the actuators,
 	l. management.endpoints.jmx.exposure.exclude = beans	// excludes only bean endpoint in actuator,
 	
-	m. management.endpoints.shutdown.enable = true			// Special endpoint to shutDown the application,which is binded to http PostRequest
+	m. management.endpoints.shutdown.enable = true			// Special endpoint to shutDown the application,which is binded to http PostRequest.
