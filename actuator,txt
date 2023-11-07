@@ -12,3 +12,5 @@ Actuators. <springboot-starter-actuator>
 	j. http://localhost:0000/actuator/health   				// gives the health of the application by default,
 	k. management.endpoint.web.exposure.include = * 		// to expose all the actuators,
 	l. management.endpoints.jmx.exposure.exclude = beans	// excludes only bean endpoint in actuator,
+	
+	m. management.endpoints.shutdown.enable = true			// Special endpoint to shutDown the application,which is binded to http PostRequest
