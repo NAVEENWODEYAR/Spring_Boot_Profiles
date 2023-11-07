@@ -8,3 +8,5 @@ Actuators. <springboot-starter-actuator>
 	g. Threads running in the application.
 	h. URL mappings available in the applications.
 	i. Log status of the application.
+	
+	http://localhost:0000/actuator
