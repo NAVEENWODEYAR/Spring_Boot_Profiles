@@ -1,11 +1,15 @@
+# DEV-Environment,
+
+server:
+  port: 1010
 
 spring:
   application:
-    name: SpringB@tch
+    name: SpringProfilesApp
     
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver 
-    url: jdbc:mysql://localhost:3306/sbdb?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/profilesdb?createDatabaseIfNotExist=true
     username: ${Database}
     password: ${Password}
   jpa:
