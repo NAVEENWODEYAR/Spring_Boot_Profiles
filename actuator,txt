@@ -1,3 +1,10 @@
-Actuators.
+Actuators. <springboot-starter-actuator>
 	a. Actuator are used for providing production ready features for the application.
 	b. Monitor and manages our application.
+	c. Application health of the application.
+	d. Beans loaded by the application.
+	e. Config properties loaded by the application.
+	f. Heap of the application.
+	g. Threads running in the application.
+	h. URL mappings available in the applications.
+	i. Log status of the application.
