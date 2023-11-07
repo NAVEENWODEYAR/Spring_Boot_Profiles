@@ -6,6 +6,18 @@ spring:
 ---
 spring:
   profiles: dev
+  config:
+    activate:
+      on-profile:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver 
+    url: jdbc:mysql://localhost:3306/sbdb?createDatabaseIfNotExist=true
+    username: ${Database}
+    password: ${Password}
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
 server:
   port: 1010
   
@@ -19,12 +31,18 @@ server:
 spring:
   profiles:
     default: uat
+  config:
+    activate:
+      on-profile: 
 server:
   port: 3030
   
 ---
 spring:
   profiles: pilot
+  config:
+    activate:
+      on-profile:
 server:
   port: 4040
     
