@@ -1,1 +1,6 @@
+# SIT- System Integration Testing.,
 
+spring:
+  application:
+    admin:
+      jmx-name: Admin
