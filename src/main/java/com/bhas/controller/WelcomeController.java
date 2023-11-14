@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class WelcomeController 
 {
-	@GetMapping("/welcome")
+	@GetMapping("/sp")
 	public String wishMsg()
 	{
 		log.info("@Slf4j");
